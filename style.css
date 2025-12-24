@@ -1,5 +1,4 @@
-body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+body{    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0px;
     padding: 0px;
     height: 1500px;
@@ -26,8 +25,7 @@ body{
     background-color: chartreuse;
     opacity: 0;
     animation: fadeIn 1s ease forwards;
-    animation-delay: 1s;
-}
+    ananimation-delay: 2s}
 @keyframes fadeIn {
     to{
         opacity: 1;
@@ -60,7 +58,7 @@ body{
 .text1{
     opacity: 0;
     animation: fadeIn1 1s ease forwards;
-    animation-delay: 5s;
+    ananimation-delay: 7s;
     background-color: rgb(207, 220, 20);
 }
 @keyframes fadeIn1 {
@@ -73,7 +71,7 @@ body{
 .text2{
     opacity: 0;
     animation: fadeIn2 1s ease forwards;
-    animation-delay: 6s;
+    ananimation-delay: 8s;
     background-color: rgb(20, 220, 193);
 }
 @keyframes fadeIn2 {
@@ -85,7 +83,7 @@ body{
     opacity: 0;
     transform: translateY(10px) rotate(360deg);
     animation: fadeIn3 1s ease forwards;
-    animation-delay: 7s;
+    ananimation-delay: 9s;
     background-color: crimson;
 }
 @keyframes fadeIn3 {
@@ -96,3 +94,4 @@ body{
     
 
 }
+
