@@ -1,0 +1,97 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    height: 1500px;
+}
+
+.header{
+
+    font-size: 40px;
+    text-align: center;
+}
+.header h1{
+
+}
+.scroll{
+    
+    position: fixed;
+    top: 5px;
+    left: 45%;
+    /* right: 50%; */
+    border: solid 2px black;
+    border-radius: .5rem;
+    width: 100px;
+    height: 50px;
+    background-color: chartreuse;
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+    animation-delay: 1s;
+}
+@keyframes fadeIn {
+    to{
+        opacity: 1;
+    }
+    
+}
+.empty{
+    height: 1500px;
+}
+.prank{
+
+    bottom: 50px;
+    left: 45%;
+    align-content: center;
+    align-items: center;
+    font-size: 20px;
+   
+}
+.prank p{
+    border: solid 2px black;
+    border-radius: .5rem;
+    padding: 10px 15px;
+    width: 200px;
+}
+
+.prankparent{
+    height: 500px;
+}
+
+.text1{
+    opacity: 0;
+    animation: fadeIn1 1s ease forwards;
+    animation-delay: 5s;
+    background-color: rgb(207, 220, 20);
+}
+@keyframes fadeIn1 {
+    to{
+        opacity: 1;
+    }
+    
+}
+
+.text2{
+    opacity: 0;
+    animation: fadeIn2 1s ease forwards;
+    animation-delay: 6s;
+    background-color: rgb(20, 220, 193);
+}
+@keyframes fadeIn2 {
+    to{
+        opacity: 1;
+    }
+}
+.text3{
+    opacity: 0;
+    transform: translateY(10px) rotate(360deg);
+    animation: fadeIn3 1s ease forwards;
+    animation-delay: 7s;
+    background-color: crimson;
+}
+@keyframes fadeIn3 {
+    to{
+        opacity: 1;
+        transform: translateY(0px) rotate(0deg);
+    }
+    
+}
